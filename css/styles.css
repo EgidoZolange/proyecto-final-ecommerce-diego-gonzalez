@@ -16,10 +16,8 @@ body {
     color: #034752;
 }
 
-/* Header and Navigation */
 header {
     background-color: #005865;
-    /* Dark aqua for header */
     color: white;
     padding: 1rem 0;
 }
@@ -44,7 +42,6 @@ h1 {
     margin-right: auto;
     padding-left: 1.5rem;
     color: #e0f7f9;
-    /* Light aqua */
 }
 
 .nav-links {
@@ -55,29 +52,22 @@ h1 {
     padding: 0;
     position: absolute;
     left: 50%;
-    /* Moves the starting point of the nav-links to the center */
     transform: translateX(-50%);
-    /* Ensures the nav-links are perfectly centered */
 }
 
 .nav-links a {
     text-decoration: none;
     color: #e0f7f9;
-    /* Light aqua */
     transition: color 0.3s;
 }
 
 .nav-links a:hover {
     color: #66e0f5;
-    /* Brighter aqua on hover */
 }
 
-/* Product Section */
 .products-section {
     padding: 2rem;
     text-align: center;
-    /* background-color: #a8e6ec; */
-    /* Muted aqua */
 }
 
 .product-cards {
@@ -89,14 +79,11 @@ h1 {
 
 .product-card {
     border: 1px solid #66e0f5;
-    /* Aqua border */
     padding: 1rem;
     width: 250px;
     text-align: center;
     background-color: #e0f7f9;
-    /* Light aqua */
     color: #034752;
-    /* Deep aqua */
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -118,12 +105,10 @@ h1 {
     color: #007d91;
 }
 
-/* Review Section */
 .reviews-section {
     text-align: center;
     padding: 10rem 2rem 10rem 2rem;
     background-color: #56bcce;
-    /* Brighter aqua */
     color: white;
 }
 
@@ -137,30 +122,24 @@ h1 {
 
 .review {
     background-color: #007d91;
-    /* Dark aqua */
     padding: 1rem;
     text-align: center;
     color: #e0f7f9;
-    /* Light aqua */
     border-radius: 8px;
     justify-content: center;
 }
 
-/* Contact Section */
 .contact-section {
     padding: 2rem;
     background-color: #e0f7f9;
-    /* Light aqua */
     text-align: center;
     color: #034752;
-    /* Deep aqua */
     border-top: 2px solid #007d91;
 }
 
 .contact-section h1 {
     margin-bottom: 1rem;
     color: #007d91;
-    /* Dark aqua */
 }
 
 .contact-section p {
@@ -173,12 +152,9 @@ h1 {
     color: #007d91;
 }
 
-/* Buttons (Optional for Enhancing UI) */
 button {
     background-color: #007d91;
-    /* Dark aqua */
     color: #e0f7f9;
-    /* Light aqua */
     border: none;
     padding: 0.5rem 1rem;
     border-radius: 4px;
@@ -188,10 +164,8 @@ button {
 
 button:hover {
     background-color: #034752;
-    /* Deep aqua on hover */
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .product-cards {
         flex-direction: column;
@@ -208,16 +182,13 @@ button:hover {
     }
 }
 
-/* Media Query for Small Screens */
 @media (max-width: 768px) {
     .contact-section {
         padding: 1rem;
         text-align: left;
-        /* Align text to the left for better readability */
     }
 
     .contact-section p {
         font-size: 0.9rem;
-        /* Slightly smaller text for compact screens */
     }
 }
